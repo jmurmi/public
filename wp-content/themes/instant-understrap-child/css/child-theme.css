@@ -6,7 +6,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --blue: #007bff; 
+  --blue: #007bff;
   --indigo: #6610f2;
   --purple: #5533ff;
   --pink: #e83e8c;
@@ -14905,6 +14905,10 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 .wpcf7 .wpcf7-validation-errors {
   color: #dc3545;
   border: 1px solid #e9ecef;
+}
+
+p {
+  color: red;
 }
 
 /*# sourceMappingURL=child-theme.css.map */
