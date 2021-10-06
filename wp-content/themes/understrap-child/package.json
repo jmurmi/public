@@ -1,6 +1,6 @@
 {
-  "name": "instant-understrap-child",
-  "version": "0.0.3",
+  "name": "understrap-child",
+  "version": "1.0.0",
   "description": "Basic Child Theme for Understrap Theme Framework: https://github.com/understrap/understrap",
   "main": "index.js",
   "scripts": {
@@ -52,7 +52,6 @@
     "clean-css-cli": "^5.3.3",
     "del": "^6.0.0",
     "font-awesome": "^4.7.0",
-    "gulp": "^4.0.2",
     "nodemon": "^2.0.12",
     "npm-run-all": "^4.1.5",
     "popper.js": "^1.16.1",
