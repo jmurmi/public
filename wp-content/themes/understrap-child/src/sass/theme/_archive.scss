@@ -1,0 +1,20 @@
+body.home,
+body.archive,
+body.blog{
+    article{
+        margin-bottom: $spacer * 3;
+
+        .entry-meta{
+            font-size: 0.8rem;
+        }
+
+        .btn{
+            display: block;
+            @include media-breakpoint-up(md) { 
+                display: inline-block;
+            }
+        }
+
+        
+    }
+}

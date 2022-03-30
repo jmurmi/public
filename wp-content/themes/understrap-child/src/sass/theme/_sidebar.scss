@@ -1,0 +1,20 @@
+.widget{
+    margin-bottom: $spacer * 3;
+
+    .widget-title{
+        @extend .h5;
+        text-transform: uppercase;
+        display: block;
+        color: $white;
+        background-color: $primary;
+        padding: $spacer * 0.25;
+        margin-bottom: 0;
+    }
+    ul{
+        @extend .list-group;
+
+        li{
+            @extend .list-group-item;
+        }
+    }
+}
