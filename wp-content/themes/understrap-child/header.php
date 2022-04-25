@@ -67,7 +67,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<?php if ( ! has_custom_logo() ) { ?>
 
 				<a href="<?php echo get_home_url(); ?>" class="navbar-brand custom-logo-link default-logo" rel="home">
-					<img src="<?php echo get_stylesheet_directory_uri() ?>/img/logo-trek-zarabici-blanco-548x62.png" width="198" height="22" class="img-fluid" alt="<?php bloginfo('name'); ?>">
+					<img src="<?php echo get_stylesheet_directory_uri() ?>/img/logo-granviabikes-negro.png" width="198" height="22" class="img-fluid" alt="<?php bloginfo('name'); ?>">
 				</a> 
 
 			<?php } else {
