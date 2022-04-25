@@ -2,9 +2,21 @@
 // To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder.
 // Just copy a variable from src/sass/bootstrap4/_variables.scss, paste it here and edit the value.
 
-$morado: #d5d82b;
+$amarillo: #ebff66;
+$azul: #5172dd;
+$grisoscuro: #737280;
+$grisclaro: #a5a5b1;
+$blancoroto: #ece9e2;  
+
+$morado: #d82ba4;
 $purple: #5533ff; // Thats a sample how you could change a BootStrap variable.
-$primary: $morado;  // Once we've changed the value, we'll also make it the primary brand color.
-$font-family-base: 'Cabin', sans-serif;
-$headings-font-family: 'Poppins', sans-serif;
+$primary: $azul;  // Once we've changed the value, we'll also make it the primary brand color.
+$font-family-base: 'Nunito', sans-serif;
+$headings-font-family: 'Poppins', sans-serif;  
 $border-radius:  0;
+$headings-font-weight: 900;
+$font-size-base: 1.1rem !default;
+$navbar-brand-font-size:  $font-size-base !default;
+$navbar-light-active-color: rgba($black, 1) !default;
+$navbar-light-color: rgba($black, 1) !default;
+$dark: $black !default; 

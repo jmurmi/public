@@ -13,6 +13,26 @@ defined( 'ABSPATH' ) || exit;
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
+<?php if ( is_active_sidebar( 'prefooter' ) ) : ?>
+
+<!-- ******************* The Footer Full-width Widget Area ******************* -->
+
+<div class="wrapper bg-light" id="wrapper-prefooter">
+
+	<div class="<?php echo esc_attr( $container ); ?>" id="prefooter-content" tabindex="-1">
+
+		<div class="row">
+
+			<?php dynamic_sidebar( 'prefooter' ); ?>
+
+		</div>
+
+	</div>
+
+</div><!-- #wrapper-footer-full -->
+
+<?php endif; ?>
+
 <?php get_template_part( 'sidebar-templates/sidebar', 'footerfull' ); ?>
 
 <div class="wrapper" id="wrapper-footer">
