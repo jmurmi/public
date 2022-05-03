@@ -19,6 +19,21 @@ var controller = new ScrollMagic.Controller();
             .addTo(controller);
         });
 
+        $('.cajamagic').each(function () {
+            var card = $(this);
+            var id = card.attr('id');
+            // build scene
+            new ScrollMagic.Scene({
+                triggerElement: "#" + id,
+                triggerHook: 0.7,
+                offset: 50, // move trigger to center of element
+            })
+            .setClassToggle("#"+id, "visible") // add class toggle
+            .addTo(controller); 
+        });
+
+        
+
       //  if ($('#ctaModal').length > 0){
       //      setTimeout(function () {
       //          $('#ctaModal').modal('show');

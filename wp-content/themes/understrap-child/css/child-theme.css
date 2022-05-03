@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Poppins:wght@200;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Nunito+Sans:wght@400;900&family=Poppins:wght@200;800&display=swap");
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -56,7 +56,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -88,11 +88,9 @@ p {
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
-  -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
   cursor: help;
   border-bottom: 0;
-  -webkit-text-decoration-skip-ink: none;
   text-decoration-skip-ink: none;
 }
 
@@ -478,7 +476,7 @@ mark,
   padding: 0.25rem;
   background-color: #fff;
   border: 1px solid #dee2e6;
-  border-radius: 0;
+  border-radius: 4rem;
   max-width: 100%;
   height: auto;
 }
@@ -1991,7 +1989,7 @@ pre code {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
-  border-radius: 0;
+  border-radius: 4rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -2086,14 +2084,6 @@ pre code {
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(81, 114, 221, 0.25);
 }
-.form-control::-moz-placeholder, .wpcf7 .wpcf7-validation-errors::-moz-placeholder, .wpcf7 input[type=text]::-moz-placeholder, .wpcf7 input[type=search]::-moz-placeholder, .wpcf7 input[type=url]::-moz-placeholder, .wpcf7 input[type=tel]::-moz-placeholder, .wpcf7 input[type=number]::-moz-placeholder, .wpcf7 input[type=range]::-moz-placeholder, .wpcf7 input[type=date]::-moz-placeholder, .wpcf7 input[type=month]::-moz-placeholder, .wpcf7 input[type=week]::-moz-placeholder, .wpcf7 input[type=time]::-moz-placeholder, .wpcf7 input[type=datetime]::-moz-placeholder, .wpcf7 input[type=datetime-local]::-moz-placeholder, .wpcf7 input[type=color]::-moz-placeholder, .wpcf7 input[type=email]::-moz-placeholder, .wpcf7 input[type=file]::-moz-placeholder, .wpcf7 input[type=submit]::-moz-placeholder, .wpcf7 select::-moz-placeholder, .wpcf7 textarea::-moz-placeholder, .widget_categories select::-moz-placeholder, .widget_archive select::-moz-placeholder {
-  color: #6c757d;
-  opacity: 1;
-}
-.form-control:-ms-input-placeholder, .wpcf7 .wpcf7-validation-errors:-ms-input-placeholder, .wpcf7 input[type=text]:-ms-input-placeholder, .wpcf7 input[type=search]:-ms-input-placeholder, .wpcf7 input[type=url]:-ms-input-placeholder, .wpcf7 input[type=tel]:-ms-input-placeholder, .wpcf7 input[type=number]:-ms-input-placeholder, .wpcf7 input[type=range]:-ms-input-placeholder, .wpcf7 input[type=date]:-ms-input-placeholder, .wpcf7 input[type=month]:-ms-input-placeholder, .wpcf7 input[type=week]:-ms-input-placeholder, .wpcf7 input[type=time]:-ms-input-placeholder, .wpcf7 input[type=datetime]:-ms-input-placeholder, .wpcf7 input[type=datetime-local]:-ms-input-placeholder, .wpcf7 input[type=color]:-ms-input-placeholder, .wpcf7 input[type=email]:-ms-input-placeholder, .wpcf7 input[type=file]:-ms-input-placeholder, .wpcf7 input[type=submit]:-ms-input-placeholder, .wpcf7 select:-ms-input-placeholder, .wpcf7 textarea:-ms-input-placeholder, .widget_categories select:-ms-input-placeholder, .widget_archive select:-ms-input-placeholder {
-  color: #6c757d;
-  opacity: 1;
-}
 .form-control::placeholder, .wpcf7 .wpcf7-validation-errors::placeholder, .wpcf7 input[type=text]::placeholder,
 .wpcf7 input[type=search]::placeholder,
 .wpcf7 input[type=url]::placeholder,
@@ -2165,8 +2155,6 @@ input[type=datetime-local].form-control,
 .wpcf7 input[type=datetime-local],
 input[type=month].form-control,
 .wpcf7 input[type=month] {
-  -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
 }
 
@@ -2325,7 +2313,7 @@ textarea.form-control, .wpcf7 textarea.wpcf7-validation-errors,
   line-height: 1.5;
   color: #fff;
   background-color: rgba(40, 167, 69, 0.9);
-  border-radius: 0;
+  border-radius: 4rem;
 }
 .form-row > .col > .valid-tooltip, .form-row > [class*=col-] > .valid-tooltip {
   left: 5px;
@@ -2532,7 +2520,7 @@ textarea.form-control, .wpcf7 textarea.wpcf7-validation-errors,
   line-height: 1.5;
   color: #fff;
   background-color: rgba(220, 53, 69, 0.9);
-  border-radius: 0;
+  border-radius: 4rem;
 }
 .form-row > .col > .invalid-tooltip, .form-row > [class*=col-] > .invalid-tooltip {
   left: 5px;
@@ -2811,45 +2799,43 @@ textarea.form-control, .wpcf7 textarea.wpcf7-validation-errors,
   }
 }
 
-.btn, .wpcf7 input[type=submit], .woocommerce-info a.button, .woocommerce-notices-wrapper .woocommerce-message a.button {
+.btn, .wpcf7 input[type=submit], .wp-block-button__link, .woocommerce-info a.button, .woocommerce-notices-wrapper .woocommerce-message a.button {
   display: inline-block;
-  font-weight: 400;
+  font-weight: 600;
   color: #212529;
   text-align: center;
   vertical-align: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
   background-color: transparent;
   border: 1px solid transparent;
-  padding: 0.375rem 0.75rem;
+  padding: 0.5rem 3rem;
   font-size: 1.1rem;
   line-height: 1.5;
-  border-radius: 0;
+  border-radius: 4rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
-  .btn, .wpcf7 input[type=submit], .woocommerce-info a.button, .woocommerce-notices-wrapper .woocommerce-message a.button {
+  .btn, .wpcf7 input[type=submit], .wp-block-button__link, .woocommerce-info a.button, .woocommerce-notices-wrapper .woocommerce-message a.button {
     transition: none;
   }
 }
-.btn:hover, .wpcf7 input[type=submit]:hover, .woocommerce-info a.button:hover, .woocommerce-notices-wrapper .woocommerce-message a.button:hover {
+.btn:hover, .wpcf7 input[type=submit]:hover, .wp-block-button__link:hover, .woocommerce-info a.button:hover, .woocommerce-notices-wrapper .woocommerce-message a.button:hover {
   color: #212529;
   text-decoration: none;
 }
-.btn:focus, .wpcf7 input[type=submit]:focus, .woocommerce-info a.button:focus, .woocommerce-notices-wrapper .woocommerce-message a.button:focus, .btn.focus, .wpcf7 input.focus[type=submit], .woocommerce-info a.focus.button, .woocommerce-notices-wrapper .woocommerce-message a.focus.button {
+.btn:focus, .wpcf7 input[type=submit]:focus, .wp-block-button__link:focus, .woocommerce-info a.button:focus, .woocommerce-notices-wrapper .woocommerce-message a.button:focus, .btn.focus, .wpcf7 input.focus[type=submit], .focus.wp-block-button__link, .woocommerce-info a.focus.button, .woocommerce-notices-wrapper .woocommerce-message a.focus.button {
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(81, 114, 221, 0.25);
 }
-.btn.disabled, .wpcf7 input.disabled[type=submit], .woocommerce-info a.disabled.button, .woocommerce-notices-wrapper .woocommerce-message a.disabled.button, .btn:disabled, .wpcf7 input[type=submit]:disabled, .woocommerce-info a.button:disabled, .woocommerce-notices-wrapper .woocommerce-message a.button:disabled {
+.btn.disabled, .wpcf7 input.disabled[type=submit], .disabled.wp-block-button__link, .woocommerce-info a.disabled.button, .woocommerce-notices-wrapper .woocommerce-message a.disabled.button, .btn:disabled, .wpcf7 input[type=submit]:disabled, .wp-block-button__link:disabled, .woocommerce-info a.button:disabled, .woocommerce-notices-wrapper .woocommerce-message a.button:disabled {
   opacity: 0.65;
 }
-.btn:not(:disabled):not(.disabled), .wpcf7 input[type=submit]:not(:disabled):not(.disabled), .woocommerce-info a.button:not(:disabled):not(.disabled), .woocommerce-notices-wrapper .woocommerce-message a.button:not(:disabled):not(.disabled) {
+.btn:not(:disabled):not(.disabled), .wpcf7 input[type=submit]:not(:disabled):not(.disabled), .wp-block-button__link:not(:disabled):not(.disabled), .woocommerce-info a.button:not(:disabled):not(.disabled), .woocommerce-notices-wrapper .woocommerce-message a.button:not(:disabled):not(.disabled) {
   cursor: pointer;
 }
-a.btn.disabled, .woocommerce-info a.disabled.button, .woocommerce-notices-wrapper .woocommerce-message a.disabled.button,
+a.btn.disabled, a.disabled.wp-block-button__link, .woocommerce-info a.disabled.button, .woocommerce-notices-wrapper .woocommerce-message a.disabled.button,
 fieldset:disabled a.btn,
+fieldset:disabled a.wp-block-button__link,
 fieldset:disabled .woocommerce-info a.button,
 .woocommerce-info fieldset:disabled a.button,
 fieldset:disabled .woocommerce-notices-wrapper .woocommerce-message a.button,
@@ -3314,14 +3300,14 @@ fieldset:disabled .woocommerce-notices-wrapper .woocommerce-message a.button,
   pointer-events: none;
 }
 
-.btn-lg, .btn-group-lg > .btn, .wpcf7 .btn-group-lg > input[type=submit], .woocommerce-info .btn-group-lg > a.button, .woocommerce-notices-wrapper .woocommerce-message .btn-group-lg > a.button {
+.btn-lg, .btn-group-lg > .btn, .wpcf7 .btn-group-lg > input[type=submit], .btn-group-lg > .wp-block-button__link, .woocommerce-info .btn-group-lg > a.button, .woocommerce-notices-wrapper .woocommerce-message .btn-group-lg > a.button {
   padding: 0.5rem 1rem;
   font-size: 1.375rem;
   line-height: 1.5;
   border-radius: 0.3rem;
 }
 
-.btn-sm, .btn-group-sm > .btn, .wpcf7 .btn-group-sm > input[type=submit], .woocommerce-info .btn-group-sm > a.button, .woocommerce-notices-wrapper .woocommerce-message .btn-group-sm > a.button {
+.btn-sm, .btn-group-sm > .btn, .wpcf7 .btn-group-sm > input[type=submit], .btn-group-sm > .wp-block-button__link, .woocommerce-info .btn-group-sm > a.button, .woocommerce-notices-wrapper .woocommerce-message .btn-group-sm > a.button {
   padding: 0.25rem 0.5rem;
   font-size: 0.9625rem;
   line-height: 1.5;
@@ -3411,7 +3397,7 @@ input[type=button].btn-block {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 0;
+  border-radius: 4rem;
 }
 
 .dropdown-menu-left {
@@ -3609,32 +3595,37 @@ input[type=button].btn-block {
   display: inline-flex;
   vertical-align: middle;
 }
-.btn-group > .btn, .wpcf7 .btn-group > input[type=submit], .woocommerce-info .btn-group > a.button, .woocommerce-notices-wrapper .woocommerce-message .btn-group > a.button,
+.btn-group > .btn, .wpcf7 .btn-group > input[type=submit], .btn-group > .wp-block-button__link, .woocommerce-info .btn-group > a.button, .woocommerce-notices-wrapper .woocommerce-message .btn-group > a.button,
 .btn-group-vertical > .btn,
 .wpcf7 .btn-group-vertical > input[type=submit],
+.btn-group-vertical > .wp-block-button__link,
 .woocommerce-info .btn-group-vertical > a.button,
 .woocommerce-notices-wrapper .woocommerce-message .btn-group-vertical > a.button {
   position: relative;
   flex: 1 1 auto;
 }
-.btn-group > .btn:hover, .wpcf7 .btn-group > input[type=submit]:hover, .woocommerce-info .btn-group > a.button:hover, .woocommerce-notices-wrapper .woocommerce-message .btn-group > a.button:hover,
+.btn-group > .btn:hover, .wpcf7 .btn-group > input[type=submit]:hover, .btn-group > .wp-block-button__link:hover, .woocommerce-info .btn-group > a.button:hover, .woocommerce-notices-wrapper .woocommerce-message .btn-group > a.button:hover,
 .btn-group-vertical > .btn:hover,
 .wpcf7 .btn-group-vertical > input[type=submit]:hover,
+.btn-group-vertical > .wp-block-button__link:hover,
 .woocommerce-info .btn-group-vertical > a.button:hover,
 .woocommerce-notices-wrapper .woocommerce-message .btn-group-vertical > a.button:hover {
   z-index: 1;
 }
-.btn-group > .btn:focus, .wpcf7 .btn-group > input[type=submit]:focus, .woocommerce-info .btn-group > a.button:focus, .woocommerce-notices-wrapper .woocommerce-message .btn-group > a.button:focus, .btn-group > .btn:active, .wpcf7 .btn-group > input[type=submit]:active, .woocommerce-info .btn-group > a.button:active, .woocommerce-notices-wrapper .woocommerce-message .btn-group > a.button:active, .btn-group > .btn.active, .wpcf7 .btn-group > input.active[type=submit], .woocommerce-info .btn-group > a.active.button, .woocommerce-notices-wrapper .woocommerce-message .btn-group > a.active.button,
+.btn-group > .btn:focus, .wpcf7 .btn-group > input[type=submit]:focus, .btn-group > .wp-block-button__link:focus, .woocommerce-info .btn-group > a.button:focus, .woocommerce-notices-wrapper .woocommerce-message .btn-group > a.button:focus, .btn-group > .btn:active, .wpcf7 .btn-group > input[type=submit]:active, .btn-group > .wp-block-button__link:active, .woocommerce-info .btn-group > a.button:active, .woocommerce-notices-wrapper .woocommerce-message .btn-group > a.button:active, .btn-group > .btn.active, .wpcf7 .btn-group > input.active[type=submit], .btn-group > .active.wp-block-button__link, .woocommerce-info .btn-group > a.active.button, .woocommerce-notices-wrapper .woocommerce-message .btn-group > a.active.button,
 .btn-group-vertical > .btn:focus,
 .wpcf7 .btn-group-vertical > input[type=submit]:focus,
+.btn-group-vertical > .wp-block-button__link:focus,
 .woocommerce-info .btn-group-vertical > a.button:focus,
 .woocommerce-notices-wrapper .woocommerce-message .btn-group-vertical > a.button:focus,
 .btn-group-vertical > .btn:active,
 .wpcf7 .btn-group-vertical > input[type=submit]:active,
+.btn-group-vertical > .wp-block-button__link:active,
 .woocommerce-info .btn-group-vertical > a.button:active,
 .woocommerce-notices-wrapper .woocommerce-message .btn-group-vertical > a.button:active,
 .btn-group-vertical > .btn.active,
 .wpcf7 .btn-group-vertical > input.active[type=submit],
+.btn-group-vertical > .active.wp-block-button__link,
 .woocommerce-info .btn-group-vertical > a.active.button,
 .woocommerce-notices-wrapper .woocommerce-message .btn-group-vertical > a.active.button {
   z-index: 1;
@@ -3649,21 +3640,23 @@ input[type=button].btn-block {
   width: auto;
 }
 
-.btn-group > .btn:not(:first-child), .wpcf7 .btn-group > input[type=submit]:not(:first-child), .woocommerce-info .btn-group > a.button:not(:first-child), .woocommerce-notices-wrapper .woocommerce-message .btn-group > a.button:not(:first-child),
+.btn-group > .btn:not(:first-child), .wpcf7 .btn-group > input[type=submit]:not(:first-child), .btn-group > .wp-block-button__link:not(:first-child), .woocommerce-info .btn-group > a.button:not(:first-child), .woocommerce-notices-wrapper .woocommerce-message .btn-group > a.button:not(:first-child),
 .btn-group > .btn-group:not(:first-child) {
   margin-left: -1px;
 }
-.btn-group > .btn:not(:last-child):not(.dropdown-toggle), .wpcf7 .btn-group > input[type=submit]:not(:last-child):not(.dropdown-toggle), .woocommerce-info .btn-group > a.button:not(:last-child):not(.dropdown-toggle), .woocommerce-notices-wrapper .woocommerce-message .btn-group > a.button:not(:last-child):not(.dropdown-toggle),
+.btn-group > .btn:not(:last-child):not(.dropdown-toggle), .wpcf7 .btn-group > input[type=submit]:not(:last-child):not(.dropdown-toggle), .btn-group > .wp-block-button__link:not(:last-child):not(.dropdown-toggle), .woocommerce-info .btn-group > a.button:not(:last-child):not(.dropdown-toggle), .woocommerce-notices-wrapper .woocommerce-message .btn-group > a.button:not(:last-child):not(.dropdown-toggle),
 .btn-group > .btn-group:not(:last-child) > .btn,
 .wpcf7 .btn-group > .btn-group:not(:last-child) > input[type=submit],
+.btn-group > .btn-group:not(:last-child) > .wp-block-button__link,
 .woocommerce-info .btn-group > .btn-group:not(:last-child) > a.button,
 .woocommerce-notices-wrapper .woocommerce-message .btn-group > .btn-group:not(:last-child) > a.button {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
-.btn-group > .btn:not(:first-child), .wpcf7 .btn-group > input[type=submit]:not(:first-child), .woocommerce-info .btn-group > a.button:not(:first-child), .woocommerce-notices-wrapper .woocommerce-message .btn-group > a.button:not(:first-child),
+.btn-group > .btn:not(:first-child), .wpcf7 .btn-group > input[type=submit]:not(:first-child), .btn-group > .wp-block-button__link:not(:first-child), .woocommerce-info .btn-group > a.button:not(:first-child), .woocommerce-notices-wrapper .woocommerce-message .btn-group > a.button:not(:first-child),
 .btn-group > .btn-group:not(:first-child) > .btn,
 .wpcf7 .btn-group > .btn-group:not(:first-child) > input[type=submit],
+.btn-group > .btn-group:not(:first-child) > .wp-block-button__link,
 .woocommerce-info .btn-group > .btn-group:not(:first-child) > a.button,
 .woocommerce-notices-wrapper .woocommerce-message .btn-group > .btn-group:not(:first-child) > a.button {
   border-top-left-radius: 0;
@@ -3671,8 +3664,8 @@ input[type=button].btn-block {
 }
 
 .dropdown-toggle-split {
-  padding-right: 0.5625rem;
-  padding-left: 0.5625rem;
+  padding-right: 2.25rem;
+  padding-left: 2.25rem;
 }
 .dropdown-toggle-split::after, .dropup .dropdown-toggle-split::after, .dropright .dropdown-toggle-split::after {
   margin-left: 0;
@@ -3681,12 +3674,12 @@ input[type=button].btn-block {
   margin-right: 0;
 }
 
-.btn-sm + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split, .wpcf7 .btn-group-sm > input[type=submit] + .dropdown-toggle-split, .woocommerce-info .btn-group-sm > a.button + .dropdown-toggle-split, .woocommerce-notices-wrapper .woocommerce-message .btn-group-sm > a.button + .dropdown-toggle-split {
+.btn-sm + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split, .wpcf7 .btn-group-sm > input[type=submit] + .dropdown-toggle-split, .btn-group-sm > .wp-block-button__link + .dropdown-toggle-split, .woocommerce-info .btn-group-sm > a.button + .dropdown-toggle-split, .woocommerce-notices-wrapper .woocommerce-message .btn-group-sm > a.button + .dropdown-toggle-split {
   padding-right: 0.375rem;
   padding-left: 0.375rem;
 }
 
-.btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split, .wpcf7 .btn-group-lg > input[type=submit] + .dropdown-toggle-split, .woocommerce-info .btn-group-lg > a.button + .dropdown-toggle-split, .woocommerce-notices-wrapper .woocommerce-message .btn-group-lg > a.button + .dropdown-toggle-split {
+.btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split, .wpcf7 .btn-group-lg > input[type=submit] + .dropdown-toggle-split, .btn-group-lg > .wp-block-button__link + .dropdown-toggle-split, .woocommerce-info .btn-group-lg > a.button + .dropdown-toggle-split, .woocommerce-notices-wrapper .woocommerce-message .btn-group-lg > a.button + .dropdown-toggle-split {
   padding-right: 0.75rem;
   padding-left: 0.75rem;
 }
@@ -3696,41 +3689,45 @@ input[type=button].btn-block {
   align-items: flex-start;
   justify-content: center;
 }
-.btn-group-vertical > .btn, .wpcf7 .btn-group-vertical > input[type=submit], .woocommerce-info .btn-group-vertical > a.button, .woocommerce-notices-wrapper .woocommerce-message .btn-group-vertical > a.button,
+.btn-group-vertical > .btn, .wpcf7 .btn-group-vertical > input[type=submit], .btn-group-vertical > .wp-block-button__link, .woocommerce-info .btn-group-vertical > a.button, .woocommerce-notices-wrapper .woocommerce-message .btn-group-vertical > a.button,
 .btn-group-vertical > .btn-group {
   width: 100%;
 }
-.btn-group-vertical > .btn:not(:first-child), .wpcf7 .btn-group-vertical > input[type=submit]:not(:first-child), .woocommerce-info .btn-group-vertical > a.button:not(:first-child), .woocommerce-notices-wrapper .woocommerce-message .btn-group-vertical > a.button:not(:first-child),
+.btn-group-vertical > .btn:not(:first-child), .wpcf7 .btn-group-vertical > input[type=submit]:not(:first-child), .btn-group-vertical > .wp-block-button__link:not(:first-child), .woocommerce-info .btn-group-vertical > a.button:not(:first-child), .woocommerce-notices-wrapper .woocommerce-message .btn-group-vertical > a.button:not(:first-child),
 .btn-group-vertical > .btn-group:not(:first-child) {
   margin-top: -1px;
 }
-.btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle), .wpcf7 .btn-group-vertical > input[type=submit]:not(:last-child):not(.dropdown-toggle), .woocommerce-info .btn-group-vertical > a.button:not(:last-child):not(.dropdown-toggle), .woocommerce-notices-wrapper .woocommerce-message .btn-group-vertical > a.button:not(:last-child):not(.dropdown-toggle),
+.btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle), .wpcf7 .btn-group-vertical > input[type=submit]:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .wp-block-button__link:not(:last-child):not(.dropdown-toggle), .woocommerce-info .btn-group-vertical > a.button:not(:last-child):not(.dropdown-toggle), .woocommerce-notices-wrapper .woocommerce-message .btn-group-vertical > a.button:not(:last-child):not(.dropdown-toggle),
 .btn-group-vertical > .btn-group:not(:last-child) > .btn,
 .wpcf7 .btn-group-vertical > .btn-group:not(:last-child) > input[type=submit],
+.btn-group-vertical > .btn-group:not(:last-child) > .wp-block-button__link,
 .woocommerce-info .btn-group-vertical > .btn-group:not(:last-child) > a.button,
 .woocommerce-notices-wrapper .woocommerce-message .btn-group-vertical > .btn-group:not(:last-child) > a.button {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
-.btn-group-vertical > .btn:not(:first-child), .wpcf7 .btn-group-vertical > input[type=submit]:not(:first-child), .woocommerce-info .btn-group-vertical > a.button:not(:first-child), .woocommerce-notices-wrapper .woocommerce-message .btn-group-vertical > a.button:not(:first-child),
+.btn-group-vertical > .btn:not(:first-child), .wpcf7 .btn-group-vertical > input[type=submit]:not(:first-child), .btn-group-vertical > .wp-block-button__link:not(:first-child), .woocommerce-info .btn-group-vertical > a.button:not(:first-child), .woocommerce-notices-wrapper .woocommerce-message .btn-group-vertical > a.button:not(:first-child),
 .btn-group-vertical > .btn-group:not(:first-child) > .btn,
 .wpcf7 .btn-group-vertical > .btn-group:not(:first-child) > input[type=submit],
+.btn-group-vertical > .btn-group:not(:first-child) > .wp-block-button__link,
 .woocommerce-info .btn-group-vertical > .btn-group:not(:first-child) > a.button,
 .woocommerce-notices-wrapper .woocommerce-message .btn-group-vertical > .btn-group:not(:first-child) > a.button {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
 
-.btn-group-toggle > .btn, .wpcf7 .btn-group-toggle > input[type=submit], .woocommerce-info .btn-group-toggle > a.button, .woocommerce-notices-wrapper .woocommerce-message .btn-group-toggle > a.button,
+.btn-group-toggle > .btn, .wpcf7 .btn-group-toggle > input[type=submit], .btn-group-toggle > .wp-block-button__link, .woocommerce-info .btn-group-toggle > a.button, .woocommerce-notices-wrapper .woocommerce-message .btn-group-toggle > a.button,
 .btn-group-toggle > .btn-group > .btn,
 .wpcf7 .btn-group-toggle > .btn-group > input[type=submit],
+.btn-group-toggle > .btn-group > .wp-block-button__link,
 .woocommerce-info .btn-group-toggle > .btn-group > a.button,
 .woocommerce-notices-wrapper .woocommerce-message .btn-group-toggle > .btn-group > a.button {
   margin-bottom: 0;
 }
-.btn-group-toggle > .btn input[type=radio], .wpcf7 .btn-group-toggle > input[type=submit] input[type=radio], .woocommerce-info .btn-group-toggle > a.button input[type=radio], .woocommerce-notices-wrapper .woocommerce-message .btn-group-toggle > a.button input[type=radio],
+.btn-group-toggle > .btn input[type=radio], .wpcf7 .btn-group-toggle > input[type=submit] input[type=radio], .btn-group-toggle > .wp-block-button__link input[type=radio], .woocommerce-info .btn-group-toggle > a.button input[type=radio], .woocommerce-notices-wrapper .woocommerce-message .btn-group-toggle > a.button input[type=radio],
 .btn-group-toggle > .btn input[type=checkbox],
 .wpcf7 .btn-group-toggle > input[type=submit] input[type=checkbox],
+.btn-group-toggle > .wp-block-button__link input[type=checkbox],
 .woocommerce-info .btn-group-toggle > a.button input[type=checkbox],
 .woocommerce-notices-wrapper .woocommerce-message .btn-group-toggle > a.button input[type=checkbox],
 .btn-group-toggle > .btn-group > .btn input[type=radio],
@@ -4542,10 +4539,11 @@ input[type=button].btn-block {
 .input-group-append {
   display: flex;
 }
-.input-group-prepend .btn, .input-group-prepend .wpcf7 input[type=submit], .wpcf7 .input-group-prepend input[type=submit], .input-group-prepend .woocommerce-info a.button, .woocommerce-info .input-group-prepend a.button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.button,
+.input-group-prepend .btn, .input-group-prepend .wpcf7 input[type=submit], .wpcf7 .input-group-prepend input[type=submit], .input-group-prepend .wp-block-button__link, .input-group-prepend .woocommerce-info a.button, .woocommerce-info .input-group-prepend a.button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.button,
 .input-group-append .btn,
 .input-group-append .wpcf7 input[type=submit],
 .wpcf7 .input-group-append input[type=submit],
+.input-group-append .wp-block-button__link,
 .input-group-append .woocommerce-info a.button,
 .woocommerce-info .input-group-append a.button,
 .input-group-append .woocommerce-notices-wrapper .woocommerce-message a.button,
@@ -4553,20 +4551,22 @@ input[type=button].btn-block {
   position: relative;
   z-index: 2;
 }
-.input-group-prepend .btn:focus, .input-group-prepend .wpcf7 input[type=submit]:focus, .wpcf7 .input-group-prepend input[type=submit]:focus, .input-group-prepend .woocommerce-info a.button:focus, .woocommerce-info .input-group-prepend a.button:focus, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.button:focus, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.button:focus,
+.input-group-prepend .btn:focus, .input-group-prepend .wpcf7 input[type=submit]:focus, .wpcf7 .input-group-prepend input[type=submit]:focus, .input-group-prepend .wp-block-button__link:focus, .input-group-prepend .woocommerce-info a.button:focus, .woocommerce-info .input-group-prepend a.button:focus, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.button:focus, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.button:focus,
 .input-group-append .btn:focus,
 .input-group-append .wpcf7 input[type=submit]:focus,
 .wpcf7 .input-group-append input[type=submit]:focus,
+.input-group-append .wp-block-button__link:focus,
 .input-group-append .woocommerce-info a.button:focus,
 .woocommerce-info .input-group-append a.button:focus,
 .input-group-append .woocommerce-notices-wrapper .woocommerce-message a.button:focus,
 .woocommerce-notices-wrapper .woocommerce-message .input-group-append a.button:focus {
   z-index: 3;
 }
-.input-group-prepend .btn + .btn, .input-group-prepend .wpcf7 input[type=submit] + .btn, .wpcf7 .input-group-prepend input[type=submit] + .btn, .input-group-prepend .wpcf7 .btn + input[type=submit], .wpcf7 .input-group-prepend .btn + input[type=submit], .input-group-prepend .wpcf7 input[type=submit] + input[type=submit], .wpcf7 .input-group-prepend input[type=submit] + input[type=submit], .input-group-prepend .woocommerce-info a.button + .btn, .input-group-prepend .woocommerce-info .wpcf7 a.button + input[type=submit], .wpcf7 .input-group-prepend .woocommerce-info a.button + input[type=submit], .woocommerce-info .input-group-prepend a.button + .btn, .woocommerce-info .input-group-prepend .wpcf7 a.button + input[type=submit], .wpcf7 .woocommerce-info .input-group-prepend a.button + input[type=submit], .input-group-prepend .woocommerce-info .btn + a.button, .input-group-prepend .woocommerce-info .wpcf7 input[type=submit] + a.button, .wpcf7 .input-group-prepend .woocommerce-info input[type=submit] + a.button, .woocommerce-info .input-group-prepend .btn + a.button, .woocommerce-info .input-group-prepend .wpcf7 input[type=submit] + a.button, .wpcf7 .woocommerce-info .input-group-prepend input[type=submit] + a.button, .input-group-prepend .woocommerce-info a.button + a.button, .woocommerce-info .input-group-prepend a.button + a.button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.button + .btn, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message .wpcf7 a.button + input[type=submit], .wpcf7 .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.button + input[type=submit], .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.button + .btn, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend .wpcf7 a.button + input[type=submit], .wpcf7 .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.button + input[type=submit], .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message .btn + a.button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message .wpcf7 input[type=submit] + a.button, .wpcf7 .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message input[type=submit] + a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend .btn + a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend .wpcf7 input[type=submit] + a.button, .wpcf7 .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend input[type=submit] + a.button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.button + a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.button + a.button,
+.input-group-prepend .btn + .btn, .input-group-prepend .wpcf7 input[type=submit] + .btn, .wpcf7 .input-group-prepend input[type=submit] + .btn, .input-group-prepend .wpcf7 .btn + input[type=submit], .wpcf7 .input-group-prepend .btn + input[type=submit], .input-group-prepend .wpcf7 input[type=submit] + input[type=submit], .wpcf7 .input-group-prepend input[type=submit] + input[type=submit], .input-group-prepend .wp-block-button__link + .btn, .input-group-prepend .wpcf7 .wp-block-button__link + input[type=submit], .wpcf7 .input-group-prepend .wp-block-button__link + input[type=submit], .input-group-prepend .btn + .wp-block-button__link, .input-group-prepend .wpcf7 input[type=submit] + .wp-block-button__link, .wpcf7 .input-group-prepend input[type=submit] + .wp-block-button__link, .input-group-prepend .wp-block-button__link + .wp-block-button__link, .input-group-prepend .woocommerce-info a.button + .btn, .input-group-prepend .woocommerce-info .wpcf7 a.button + input[type=submit], .wpcf7 .input-group-prepend .woocommerce-info a.button + input[type=submit], .input-group-prepend .woocommerce-info a.button + .wp-block-button__link, .woocommerce-info .input-group-prepend a.button + .btn, .woocommerce-info .input-group-prepend .wpcf7 a.button + input[type=submit], .wpcf7 .woocommerce-info .input-group-prepend a.button + input[type=submit], .woocommerce-info .input-group-prepend a.button + .wp-block-button__link, .input-group-prepend .woocommerce-info .btn + a.button, .input-group-prepend .woocommerce-info .wpcf7 input[type=submit] + a.button, .wpcf7 .input-group-prepend .woocommerce-info input[type=submit] + a.button, .input-group-prepend .woocommerce-info .wp-block-button__link + a.button, .woocommerce-info .input-group-prepend .btn + a.button, .woocommerce-info .input-group-prepend .wpcf7 input[type=submit] + a.button, .wpcf7 .woocommerce-info .input-group-prepend input[type=submit] + a.button, .woocommerce-info .input-group-prepend .wp-block-button__link + a.button, .input-group-prepend .woocommerce-info a.button + a.button, .woocommerce-info .input-group-prepend a.button + a.button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.button + .btn, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message .wpcf7 a.button + input[type=submit], .wpcf7 .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.button + input[type=submit], .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.button + .wp-block-button__link, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.button + .btn, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend .wpcf7 a.button + input[type=submit], .wpcf7 .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.button + input[type=submit], .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.button + .wp-block-button__link, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message .btn + a.button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message .wpcf7 input[type=submit] + a.button, .wpcf7 .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message input[type=submit] + a.button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message .wp-block-button__link + a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend .btn + a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend .wpcf7 input[type=submit] + a.button, .wpcf7 .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend input[type=submit] + a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend .wp-block-button__link + a.button, .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.button + a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group-prepend a.button + a.button,
 .input-group-prepend .btn + .input-group-text,
 .input-group-prepend .wpcf7 input[type=submit] + .input-group-text,
 .wpcf7 .input-group-prepend input[type=submit] + .input-group-text,
+.input-group-prepend .wp-block-button__link + .input-group-text,
 .input-group-prepend .woocommerce-info a.button + .input-group-text,
 .woocommerce-info .input-group-prepend a.button + .input-group-text,
 .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message a.button + .input-group-text,
@@ -4575,6 +4575,7 @@ input[type=button].btn-block {
 .input-group-prepend .input-group-text + .btn,
 .input-group-prepend .wpcf7 .input-group-text + input[type=submit],
 .wpcf7 .input-group-prepend .input-group-text + input[type=submit],
+.input-group-prepend .input-group-text + .wp-block-button__link,
 .input-group-prepend .woocommerce-info .input-group-text + a.button,
 .woocommerce-info .input-group-prepend .input-group-text + a.button,
 .input-group-prepend .woocommerce-notices-wrapper .woocommerce-message .input-group-text + a.button,
@@ -4586,37 +4587,53 @@ input[type=button].btn-block {
 .wpcf7 .input-group-append .btn + input[type=submit],
 .input-group-append .wpcf7 input[type=submit] + input[type=submit],
 .wpcf7 .input-group-append input[type=submit] + input[type=submit],
+.input-group-append .wp-block-button__link + .btn,
+.input-group-append .wpcf7 .wp-block-button__link + input[type=submit],
+.wpcf7 .input-group-append .wp-block-button__link + input[type=submit],
+.input-group-append .btn + .wp-block-button__link,
+.input-group-append .wpcf7 input[type=submit] + .wp-block-button__link,
+.wpcf7 .input-group-append input[type=submit] + .wp-block-button__link,
+.input-group-append .wp-block-button__link + .wp-block-button__link,
 .input-group-append .woocommerce-info a.button + .btn,
 .input-group-append .woocommerce-info .wpcf7 a.button + input[type=submit],
 .wpcf7 .input-group-append .woocommerce-info a.button + input[type=submit],
+.input-group-append .woocommerce-info a.button + .wp-block-button__link,
 .woocommerce-info .input-group-append a.button + .btn,
 .woocommerce-info .input-group-append .wpcf7 a.button + input[type=submit],
 .wpcf7 .woocommerce-info .input-group-append a.button + input[type=submit],
+.woocommerce-info .input-group-append a.button + .wp-block-button__link,
 .input-group-append .woocommerce-info .btn + a.button,
 .input-group-append .woocommerce-info .wpcf7 input[type=submit] + a.button,
 .wpcf7 .input-group-append .woocommerce-info input[type=submit] + a.button,
+.input-group-append .woocommerce-info .wp-block-button__link + a.button,
 .woocommerce-info .input-group-append .btn + a.button,
 .woocommerce-info .input-group-append .wpcf7 input[type=submit] + a.button,
 .wpcf7 .woocommerce-info .input-group-append input[type=submit] + a.button,
+.woocommerce-info .input-group-append .wp-block-button__link + a.button,
 .input-group-append .woocommerce-info a.button + a.button,
 .woocommerce-info .input-group-append a.button + a.button,
 .input-group-append .woocommerce-notices-wrapper .woocommerce-message a.button + .btn,
 .input-group-append .woocommerce-notices-wrapper .woocommerce-message .wpcf7 a.button + input[type=submit],
 .wpcf7 .input-group-append .woocommerce-notices-wrapper .woocommerce-message a.button + input[type=submit],
+.input-group-append .woocommerce-notices-wrapper .woocommerce-message a.button + .wp-block-button__link,
 .woocommerce-notices-wrapper .woocommerce-message .input-group-append a.button + .btn,
 .woocommerce-notices-wrapper .woocommerce-message .input-group-append .wpcf7 a.button + input[type=submit],
 .wpcf7 .woocommerce-notices-wrapper .woocommerce-message .input-group-append a.button + input[type=submit],
+.woocommerce-notices-wrapper .woocommerce-message .input-group-append a.button + .wp-block-button__link,
 .input-group-append .woocommerce-notices-wrapper .woocommerce-message .btn + a.button,
 .input-group-append .woocommerce-notices-wrapper .woocommerce-message .wpcf7 input[type=submit] + a.button,
 .wpcf7 .input-group-append .woocommerce-notices-wrapper .woocommerce-message input[type=submit] + a.button,
+.input-group-append .woocommerce-notices-wrapper .woocommerce-message .wp-block-button__link + a.button,
 .woocommerce-notices-wrapper .woocommerce-message .input-group-append .btn + a.button,
 .woocommerce-notices-wrapper .woocommerce-message .input-group-append .wpcf7 input[type=submit] + a.button,
 .wpcf7 .woocommerce-notices-wrapper .woocommerce-message .input-group-append input[type=submit] + a.button,
+.woocommerce-notices-wrapper .woocommerce-message .input-group-append .wp-block-button__link + a.button,
 .input-group-append .woocommerce-notices-wrapper .woocommerce-message a.button + a.button,
 .woocommerce-notices-wrapper .woocommerce-message .input-group-append a.button + a.button,
 .input-group-append .btn + .input-group-text,
 .input-group-append .wpcf7 input[type=submit] + .input-group-text,
 .wpcf7 .input-group-append input[type=submit] + .input-group-text,
+.input-group-append .wp-block-button__link + .input-group-text,
 .input-group-append .woocommerce-info a.button + .input-group-text,
 .woocommerce-info .input-group-append a.button + .input-group-text,
 .input-group-append .woocommerce-notices-wrapper .woocommerce-message a.button + .input-group-text,
@@ -4625,6 +4642,7 @@ input[type=button].btn-block {
 .input-group-append .input-group-text + .btn,
 .input-group-append .wpcf7 .input-group-text + input[type=submit],
 .wpcf7 .input-group-append .input-group-text + input[type=submit],
+.input-group-append .input-group-text + .wp-block-button__link,
 .input-group-append .woocommerce-info .input-group-text + a.button,
 .woocommerce-info .input-group-append .input-group-text + a.button,
 .input-group-append .woocommerce-notices-wrapper .woocommerce-message .input-group-text + a.button,
@@ -4653,7 +4671,7 @@ input[type=button].btn-block {
   white-space: nowrap;
   background-color: #e9ecef;
   border: 1px solid #ced4da;
-  border-radius: 0;
+  border-radius: 4rem;
 }
 .input-group-text input[type=radio],
 .input-group-text input[type=checkbox] {
@@ -4707,10 +4725,12 @@ input[type=button].btn-block {
 .input-group-lg > .input-group-append > .input-group-text,
 .input-group-lg > .input-group-prepend > .btn,
 .wpcf7 .input-group-lg > .input-group-prepend > input[type=submit],
+.input-group-lg > .input-group-prepend > .wp-block-button__link,
 .woocommerce-info .input-group-lg > .input-group-prepend > a.button,
 .woocommerce-notices-wrapper .woocommerce-message .input-group-lg > .input-group-prepend > a.button,
 .input-group-lg > .input-group-append > .btn,
 .wpcf7 .input-group-lg > .input-group-append > input[type=submit],
+.input-group-lg > .input-group-append > .wp-block-button__link,
 .woocommerce-info .input-group-lg > .input-group-append > a.button,
 .woocommerce-notices-wrapper .woocommerce-message .input-group-lg > .input-group-append > a.button {
   padding: 0.5rem 1rem;
@@ -4766,10 +4786,12 @@ input[type=button].btn-block {
 .input-group-sm > .input-group-append > .input-group-text,
 .input-group-sm > .input-group-prepend > .btn,
 .wpcf7 .input-group-sm > .input-group-prepend > input[type=submit],
+.input-group-sm > .input-group-prepend > .wp-block-button__link,
 .woocommerce-info .input-group-sm > .input-group-prepend > a.button,
 .woocommerce-notices-wrapper .woocommerce-message .input-group-sm > .input-group-prepend > a.button,
 .input-group-sm > .input-group-append > .btn,
 .wpcf7 .input-group-sm > .input-group-append > input[type=submit],
+.input-group-sm > .input-group-append > .wp-block-button__link,
 .woocommerce-info .input-group-sm > .input-group-append > a.button,
 .woocommerce-notices-wrapper .woocommerce-message .input-group-sm > .input-group-append > a.button {
   padding: 0.25rem 0.5rem;
@@ -4783,20 +4805,23 @@ input[type=button].btn-block {
   padding-right: 1.75rem;
 }
 
-.input-group > .input-group-prepend > .btn, .wpcf7 .input-group > .input-group-prepend > input[type=submit], .woocommerce-info .input-group > .input-group-prepend > a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group > .input-group-prepend > a.button,
+.input-group > .input-group-prepend > .btn, .wpcf7 .input-group > .input-group-prepend > input[type=submit], .input-group > .input-group-prepend > .wp-block-button__link, .woocommerce-info .input-group > .input-group-prepend > a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group > .input-group-prepend > a.button,
 .input-group > .input-group-prepend > .input-group-text,
 .input-group:not(.has-validation) > .input-group-append:not(:last-child) > .btn,
 .wpcf7 .input-group:not(.has-validation) > .input-group-append:not(:last-child) > input[type=submit],
+.input-group:not(.has-validation) > .input-group-append:not(:last-child) > .wp-block-button__link,
 .woocommerce-info .input-group:not(.has-validation) > .input-group-append:not(:last-child) > a.button,
 .woocommerce-notices-wrapper .woocommerce-message .input-group:not(.has-validation) > .input-group-append:not(:last-child) > a.button,
 .input-group:not(.has-validation) > .input-group-append:not(:last-child) > .input-group-text,
 .input-group.has-validation > .input-group-append:nth-last-child(n+3) > .btn,
 .wpcf7 .input-group.has-validation > .input-group-append:nth-last-child(n+3) > input[type=submit],
+.input-group.has-validation > .input-group-append:nth-last-child(n+3) > .wp-block-button__link,
 .woocommerce-info .input-group.has-validation > .input-group-append:nth-last-child(n+3) > a.button,
 .woocommerce-notices-wrapper .woocommerce-message .input-group.has-validation > .input-group-append:nth-last-child(n+3) > a.button,
 .input-group.has-validation > .input-group-append:nth-last-child(n+3) > .input-group-text,
 .input-group > .input-group-append:last-child > .btn:not(:last-child):not(.dropdown-toggle),
 .wpcf7 .input-group > .input-group-append:last-child > input[type=submit]:not(:last-child):not(.dropdown-toggle),
+.input-group > .input-group-append:last-child > .wp-block-button__link:not(:last-child):not(.dropdown-toggle),
 .woocommerce-info .input-group > .input-group-append:last-child > a.button:not(:last-child):not(.dropdown-toggle),
 .woocommerce-notices-wrapper .woocommerce-message .input-group > .input-group-append:last-child > a.button:not(:last-child):not(.dropdown-toggle),
 .input-group > .input-group-append:last-child > .input-group-text:not(:last-child) {
@@ -4804,15 +4829,17 @@ input[type=button].btn-block {
   border-bottom-right-radius: 0;
 }
 
-.input-group > .input-group-append > .btn, .wpcf7 .input-group > .input-group-append > input[type=submit], .woocommerce-info .input-group > .input-group-append > a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group > .input-group-append > a.button,
+.input-group > .input-group-append > .btn, .wpcf7 .input-group > .input-group-append > input[type=submit], .input-group > .input-group-append > .wp-block-button__link, .woocommerce-info .input-group > .input-group-append > a.button, .woocommerce-notices-wrapper .woocommerce-message .input-group > .input-group-append > a.button,
 .input-group > .input-group-append > .input-group-text,
 .input-group > .input-group-prepend:not(:first-child) > .btn,
 .wpcf7 .input-group > .input-group-prepend:not(:first-child) > input[type=submit],
+.input-group > .input-group-prepend:not(:first-child) > .wp-block-button__link,
 .woocommerce-info .input-group > .input-group-prepend:not(:first-child) > a.button,
 .woocommerce-notices-wrapper .woocommerce-message .input-group > .input-group-prepend:not(:first-child) > a.button,
 .input-group > .input-group-prepend:not(:first-child) > .input-group-text,
 .input-group > .input-group-prepend:first-child > .btn:not(:first-child),
 .wpcf7 .input-group > .input-group-prepend:first-child > input[type=submit]:not(:first-child),
+.input-group > .input-group-prepend:first-child > .wp-block-button__link:not(:first-child),
 .woocommerce-info .input-group > .input-group-prepend:first-child > a.button:not(:first-child),
 .woocommerce-notices-wrapper .woocommerce-message .input-group > .input-group-prepend:first-child > a.button:not(:first-child),
 .input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child) {
@@ -4826,7 +4853,6 @@ input[type=button].btn-block {
   display: block;
   min-height: 1.65rem;
   padding-left: 1.5rem;
-  -webkit-print-color-adjust: exact;
   color-adjust: exact;
 }
 
@@ -4895,7 +4921,7 @@ input[type=button].btn-block {
 }
 
 .custom-checkbox .custom-control-label::before {
-  border-radius: 0;
+  border-radius: 4rem;
 }
 .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26l2.974 2.99L8 2.193z'/%3e%3c/svg%3e");
@@ -4967,9 +4993,7 @@ input[type=button].btn-block {
   vertical-align: middle;
   background: #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") right 0.75rem center/8px 10px no-repeat;
   border: 1px solid #ced4da;
-  border-radius: 0;
-  -webkit-appearance: none;
-  -moz-appearance: none;
+  border-radius: 4rem;
   appearance: none;
 }
 .custom-select:focus {
@@ -5059,7 +5083,7 @@ input[type=button].btn-block {
   color: #495057;
   background-color: #fff;
   border: 1px solid #ced4da;
-  border-radius: 0;
+  border-radius: 4rem;
 }
 .custom-file-label::after {
   position: absolute;
@@ -5075,7 +5099,7 @@ input[type=button].btn-block {
   content: "Browse";
   background-color: #e9ecef;
   border-left: inherit;
-  border-radius: 0 0 0 0;
+  border-radius: 0 4rem 4rem 0;
 }
 
 .custom-range {
@@ -5083,8 +5107,6 @@ input[type=button].btn-block {
   height: 1.4rem;
   padding: 0;
   background-color: transparent;
-  -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
 }
 .custom-range:focus {
@@ -5109,14 +5131,11 @@ input[type=button].btn-block {
   background-color: #5172dd;
   border: 0;
   border-radius: 1rem;
-  -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  -webkit-appearance: none;
   appearance: none;
 }
 @media (prefers-reduced-motion: reduce) {
   .custom-range::-webkit-slider-thumb {
-    -webkit-transition: none;
     transition: none;
   }
 }
@@ -5138,14 +5157,11 @@ input[type=button].btn-block {
   background-color: #5172dd;
   border: 0;
   border-radius: 1rem;
-  -moz-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  -moz-appearance: none;
   appearance: none;
 }
 @media (prefers-reduced-motion: reduce) {
   .custom-range::-moz-range-thumb {
-    -moz-transition: none;
     transition: none;
   }
 }
@@ -5170,13 +5186,11 @@ input[type=button].btn-block {
   background-color: #5172dd;
   border: 0;
   border-radius: 1rem;
-  -ms-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   appearance: none;
 }
 @media (prefers-reduced-motion: reduce) {
   .custom-range::-ms-thumb {
-    -ms-transition: none;
     transition: none;
   }
 }
@@ -5257,8 +5271,8 @@ input[type=button].btn-block {
 .nav-tabs .nav-link {
   margin-bottom: -1px;
   border: 1px solid transparent;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+  border-top-left-radius: 4rem;
+  border-top-right-radius: 4rem;
 }
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
   border-color: #e9ecef #e9ecef #dee2e6;
@@ -5281,7 +5295,7 @@ input[type=button].btn-block {
 }
 
 .nav-pills .nav-link {
-  border-radius: 0;
+  border-radius: 4rem;
 }
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
@@ -5375,7 +5389,7 @@ input[type=button].btn-block {
   line-height: 1;
   background-color: transparent;
   border: 1px solid transparent;
-  border-radius: 0;
+  border-radius: 4rem;
 }
 .navbar-toggler:hover, .navbar-toggler:focus {
   text-decoration: none;
@@ -5702,7 +5716,7 @@ input[type=button].btn-block {
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0;
+  border-radius: 4rem;
 }
 .card > hr {
   margin-right: 0;
@@ -5714,13 +5728,13 @@ input[type=button].btn-block {
 }
 .card > .list-group:first-child, .widget .card > ul:first-child {
   border-top-width: 0;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+  border-top-left-radius: calc(4rem - 1px);
+  border-top-right-radius: calc(4rem - 1px);
 }
 .card > .list-group:last-child, .widget .card > ul:last-child {
   border-bottom-width: 0;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
+  border-bottom-right-radius: calc(4rem - 1px);
+  border-bottom-left-radius: calc(4rem - 1px);
 }
 .card > .card-header + .list-group, .widget .card > .card-header + ul,
 .card > .list-group + .card-footer,
@@ -5761,7 +5775,7 @@ input[type=button].btn-block {
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 .card-header:first-child {
-  border-radius: 0 0 0 0;
+  border-radius: calc(4rem - 1px) calc(4rem - 1px) 0 0;
 }
 
 .card-footer {
@@ -5770,7 +5784,7 @@ input[type=button].btn-block {
   border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
 .card-footer:last-child {
-  border-radius: 0 0 0 0;
+  border-radius: 0 0 calc(4rem - 1px) calc(4rem - 1px);
 }
 
 .card-header-tabs {
@@ -5792,7 +5806,7 @@ input[type=button].btn-block {
   bottom: 0;
   left: 0;
   padding: 1.25rem;
-  border-radius: 0;
+  border-radius: calc(4rem - 1px);
 }
 
 .card-img,
@@ -5804,14 +5818,14 @@ input[type=button].btn-block {
 
 .card-img,
 .card-img-top {
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+  border-top-left-radius: calc(4rem - 1px);
+  border-top-right-radius: calc(4rem - 1px);
 }
 
 .card-img,
 .card-img-bottom {
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
+  border-bottom-right-radius: calc(4rem - 1px);
+  border-bottom-left-radius: calc(4rem - 1px);
 }
 
 .card-deck .card {
@@ -5879,9 +5893,7 @@ input[type=button].btn-block {
 }
 @media (min-width: 576px) {
   .card-columns {
-    -moz-column-count: 3;
     column-count: 3;
-    -moz-column-gap: 1.25rem;
     column-gap: 1.25rem;
     orphans: 1;
     widows: 1;
@@ -5919,7 +5931,7 @@ input[type=button].btn-block {
   margin-bottom: 1rem;
   list-style: none;
   background-color: #e9ecef;
-  border-radius: 0;
+  border-radius: 4rem;
 }
 
 .breadcrumb-item + .breadcrumb-item {
@@ -5945,7 +5957,7 @@ input[type=button].btn-block {
   display: flex;
   padding-left: 0;
   list-style: none;
-  border-radius: 0;
+  border-radius: 4rem;
 }
 
 .page-link {
@@ -5973,12 +5985,12 @@ input[type=button].btn-block {
 
 .page-item:first-child .page-link {
   margin-left: 0;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
+  border-top-left-radius: 4rem;
+  border-bottom-left-radius: 4rem;
 }
 .page-item:last-child .page-link {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
+  border-top-right-radius: 4rem;
+  border-bottom-right-radius: 4rem;
 }
 .page-item.active .page-link {
   z-index: 3;
@@ -6031,7 +6043,7 @@ input[type=button].btn-block {
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
-  border-radius: 0;
+  border-radius: 4rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -6047,7 +6059,7 @@ a.badge:hover, a.badge:focus {
   display: none;
 }
 
-.btn .badge, .wpcf7 input[type=submit] .badge, .woocommerce-info a.button .badge, .woocommerce-notices-wrapper .woocommerce-message a.button .badge {
+.btn .badge, .wpcf7 input[type=submit] .badge, .wp-block-button__link .badge, .woocommerce-info a.button .badge, .woocommerce-notices-wrapper .woocommerce-message a.button .badge {
   position: relative;
   top: -1px;
 }
@@ -6185,7 +6197,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   padding: 0.75rem 1.25rem;
   margin-bottom: 1rem;
   border: 1px solid transparent;
-  border-radius: 0;
+  border-radius: 4rem;
 }
 
 .alert-heading {
@@ -6304,15 +6316,6 @@ a.badge-dark:focus, a.badge-dark.focus {
   color: black;
 }
 
-@-webkit-keyframes progress-bar-stripes {
-  from {
-    background-position: 1rem 0;
-  }
-  to {
-    background-position: 0 0;
-  }
-}
-
 @keyframes progress-bar-stripes {
   from {
     background-position: 1rem 0;
@@ -6328,7 +6331,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   line-height: 0;
   font-size: 0.825rem;
   background-color: #e9ecef;
-  border-radius: 0;
+  border-radius: 4rem;
 }
 
 .progress-bar {
@@ -6354,12 +6357,10 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .progress-bar-animated {
-  -webkit-animation: 1s linear infinite progress-bar-stripes;
   animation: 1s linear infinite progress-bar-stripes;
 }
 @media (prefers-reduced-motion: reduce) {
   .progress-bar-animated {
-    -webkit-animation: none;
     animation: none;
   }
 }
@@ -6378,7 +6379,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   flex-direction: column;
   padding-left: 0;
   margin-bottom: 0;
-  border-radius: 0;
+  border-radius: 4rem;
 }
 
 .list-group-item-action {
@@ -6435,11 +6436,11 @@ a.badge-dark:focus, a.badge-dark.focus {
   flex-direction: row;
 }
 .list-group-horizontal > .list-group-item:first-child, .widget ul .list-group-horizontal > li:first-child {
-  border-bottom-left-radius: 0;
+  border-bottom-left-radius: 4rem;
   border-top-right-radius: 0;
 }
 .list-group-horizontal > .list-group-item:last-child, .widget ul .list-group-horizontal > li:last-child {
-  border-top-right-radius: 0;
+  border-top-right-radius: 4rem;
   border-bottom-left-radius: 0;
 }
 .list-group-horizontal > .list-group-item.active, .widget ul .list-group-horizontal > li.active {
@@ -6459,11 +6460,11 @@ a.badge-dark:focus, a.badge-dark.focus {
     flex-direction: row;
   }
   .list-group-horizontal-sm > .list-group-item:first-child, .widget ul .list-group-horizontal-sm > li:first-child {
-    border-bottom-left-radius: 0;
+    border-bottom-left-radius: 4rem;
     border-top-right-radius: 0;
   }
   .list-group-horizontal-sm > .list-group-item:last-child, .widget ul .list-group-horizontal-sm > li:last-child {
-    border-top-right-radius: 0;
+    border-top-right-radius: 4rem;
     border-bottom-left-radius: 0;
   }
   .list-group-horizontal-sm > .list-group-item.active, .widget ul .list-group-horizontal-sm > li.active {
@@ -6483,11 +6484,11 @@ a.badge-dark:focus, a.badge-dark.focus {
     flex-direction: row;
   }
   .list-group-horizontal-md > .list-group-item:first-child, .widget ul .list-group-horizontal-md > li:first-child {
-    border-bottom-left-radius: 0;
+    border-bottom-left-radius: 4rem;
     border-top-right-radius: 0;
   }
   .list-group-horizontal-md > .list-group-item:last-child, .widget ul .list-group-horizontal-md > li:last-child {
-    border-top-right-radius: 0;
+    border-top-right-radius: 4rem;
     border-bottom-left-radius: 0;
   }
   .list-group-horizontal-md > .list-group-item.active, .widget ul .list-group-horizontal-md > li.active {
@@ -6507,11 +6508,11 @@ a.badge-dark:focus, a.badge-dark.focus {
     flex-direction: row;
   }
   .list-group-horizontal-lg > .list-group-item:first-child, .widget ul .list-group-horizontal-lg > li:first-child {
-    border-bottom-left-radius: 0;
+    border-bottom-left-radius: 4rem;
     border-top-right-radius: 0;
   }
   .list-group-horizontal-lg > .list-group-item:last-child, .widget ul .list-group-horizontal-lg > li:last-child {
-    border-top-right-radius: 0;
+    border-top-right-radius: 4rem;
     border-bottom-left-radius: 0;
   }
   .list-group-horizontal-lg > .list-group-item.active, .widget ul .list-group-horizontal-lg > li.active {
@@ -6531,11 +6532,11 @@ a.badge-dark:focus, a.badge-dark.focus {
     flex-direction: row;
   }
   .list-group-horizontal-xl > .list-group-item:first-child, .widget ul .list-group-horizontal-xl > li:first-child {
-    border-bottom-left-radius: 0;
+    border-bottom-left-radius: 4rem;
     border-top-right-radius: 0;
   }
   .list-group-horizontal-xl > .list-group-item:last-child, .widget ul .list-group-horizontal-xl > li:last-child {
-    border-top-right-radius: 0;
+    border-top-right-radius: 4rem;
     border-bottom-left-radius: 0;
   }
   .list-group-horizontal-xl > .list-group-item.active, .widget ul .list-group-horizontal-xl > li.active {
@@ -6806,8 +6807,6 @@ a.close.disabled {
 .modal-dialog-centered::before {
   display: block;
   height: calc(100vh - 1rem);
-  height: -webkit-min-content;
-  height: -moz-min-content;
   height: min-content;
   content: "";
 }
@@ -6917,8 +6916,6 @@ a.close.disabled {
   }
   .modal-dialog-centered::before {
     height: calc(100vh - 3.5rem);
-    height: -webkit-min-content;
-    height: -moz-min-content;
     height: min-content;
   }
 
@@ -6942,7 +6939,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -7034,7 +7031,7 @@ a.close.disabled {
   color: #fff;
   text-align: center;
   background-color: #000000;
-  border-radius: 0;
+  border-radius: 4rem;
 }
 
 .popover {
@@ -7044,7 +7041,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -7207,7 +7204,6 @@ a.close.disabled {
   float: left;
   width: 100%;
   margin-right: -100%;
-  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   transition: transform 0.6s ease-in-out;
 }
@@ -7361,12 +7357,6 @@ a.close.disabled {
   text-align: center;
 }
 
-@-webkit-keyframes spinner-border {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 @keyframes spinner-border {
   to {
     transform: rotate(360deg);
@@ -7380,7 +7370,6 @@ a.close.disabled {
   border: 0.25em solid currentColor;
   border-right-color: transparent;
   border-radius: 50%;
-  -webkit-animation: 0.75s linear infinite spinner-border;
   animation: 0.75s linear infinite spinner-border;
 }
 
@@ -7388,16 +7377,6 @@ a.close.disabled {
   width: 1rem;
   height: 1rem;
   border-width: 0.2em;
-}
-
-@-webkit-keyframes spinner-grow {
-  0% {
-    transform: scale(0);
-  }
-  50% {
-    opacity: 1;
-    transform: none;
-  }
 }
 
 @keyframes spinner-grow {
@@ -7417,7 +7396,6 @@ a.close.disabled {
   background-color: currentColor;
   border-radius: 50%;
   opacity: 0;
-  -webkit-animation: 0.75s linear infinite spinner-grow;
   animation: 0.75s linear infinite spinner-grow;
 }
 
@@ -7429,7 +7407,6 @@ a.close.disabled {
 @media (prefers-reduced-motion: reduce) {
   .spinner-border,
 .spinner-grow {
-    -webkit-animation-duration: 1.5s;
     animation-duration: 1.5s;
   }
 }
@@ -7626,27 +7603,27 @@ button.bg-dark:focus {
 }
 
 .rounded {
-  border-radius: 0 !important;
+  border-radius: 4rem !important;
 }
 
 .rounded-top {
-  border-top-left-radius: 0 !important;
-  border-top-right-radius: 0 !important;
+  border-top-left-radius: 4rem !important;
+  border-top-right-radius: 4rem !important;
 }
 
 .rounded-right {
-  border-top-right-radius: 0 !important;
-  border-bottom-right-radius: 0 !important;
+  border-top-right-radius: 4rem !important;
+  border-bottom-right-radius: 4rem !important;
 }
 
 .rounded-bottom {
-  border-bottom-right-radius: 0 !important;
-  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 4rem !important;
+  border-bottom-left-radius: 4rem !important;
 }
 
 .rounded-left {
-  border-top-left-radius: 0 !important;
-  border-bottom-left-radius: 0 !important;
+  border-top-left-radius: 4rem !important;
+  border-bottom-left-radius: 4rem !important;
 }
 
 .rounded-lg {
@@ -8682,22 +8659,14 @@ button.bg-dark:focus {
   }
 }
 .user-select-all {
-  -webkit-user-select: all !important;
-  -moz-user-select: all !important;
   user-select: all !important;
 }
 
 .user-select-auto {
-  -webkit-user-select: auto !important;
-  -moz-user-select: auto !important;
-  -ms-user-select: auto !important;
   user-select: auto !important;
 }
 
 .user-select-none {
-  -webkit-user-select: none !important;
-  -moz-user-select: none !important;
-  -ms-user-select: none !important;
   user-select: none !important;
 }
 
@@ -8726,7 +8695,6 @@ button.bg-dark:focus {
 }
 
 .position-sticky {
-  position: -webkit-sticky !important;
   position: sticky !important;
 }
 
@@ -8746,9 +8714,8 @@ button.bg-dark:focus {
   z-index: 1030;
 }
 
-@supports ((position: -webkit-sticky) or (position: sticky)) {
+@supports (position: sticky) {
   .sticky-top {
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
@@ -11277,7 +11244,7 @@ a.text-dark:hover, a.text-dark:focus {
     box-shadow: none !important;
   }
 
-  a:not(.btn) {
+  a:not(.btn):not(.wp-block-button__link) {
     text-decoration: underline;
   }
 
@@ -11673,42 +11640,56 @@ figure.woocommerce-product-gallery__wrapper {
 
 @-webkit-keyframes fa-spin {
   0% {
+    -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
   100% {
+    -webkit-transform: rotate(359deg);
     transform: rotate(359deg);
   }
 }
 @keyframes fa-spin {
   0% {
+    -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
   100% {
+    -webkit-transform: rotate(359deg);
     transform: rotate(359deg);
   }
 }
 .fa-rotate-90 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 
 .fa-rotate-180 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .fa-rotate-270 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
   transform: rotate(270deg);
 }
 
 .fa-flip-horizontal {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
   transform: scale(-1, 1);
 }
 
 .fa-flip-vertical {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
   transform: scale(1, -1);
 }
 
@@ -14620,16 +14601,169 @@ figure.woocommerce-product-gallery__wrapper {
   display: block;
 }
 
-article.card {
+article.card, .cajamagic {
   opacity: 0;
   transform: translateY(20px);
   transition: all ease 1s;
 }
-article.card.visible {
+article.card.visible, .cajamagic.visible {
   opacity: 1;
   transform: translateY(0px);
 }
 
+.btn, .wpcf7 input[type=submit], .wp-block-button__link, .woocommerce-notices-wrapper .woocommerce-message a.button, .woocommerce-info a.button {
+  background-color: #5172dd;
+  color: #ece9e2;
+  padding: 0.5rem 3rem;
+}
+
+.redes-sociales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.redes-sociales .red-social {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.redes-sociales .fa {
+  font-size: 1.5rem;
+}
+
+@media (min-width: 992px) {
+  #wrapper-navbar .navbar {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  #wrapper-footer-full .footer-widget:nth-child(3) {
+    text-align: right;
+  }
+  #wrapper-footer-full .footer-widget:nth-child(3) .redes-sociales {
+    justify-content: flex-end;
+  }
+}
+h2:after, h2::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 2px;
+  background: #5172dd;
+  margin: 1rem auto;
+}
+
+h3:after, h3::after, .wp-block-cover p:after, .wp-block-cover p::after, .wp-block-cover-image p:after, .wp-block-cover-image p::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #ebff66;
+  margin: 1rem auto;
+}
+
+h1.titulo-principal {
+  /*background-image: url(/wp-content/themes/understrap-child/img/gvb-bg.svg);
+  background-repeat: no-repeat;
+  padding: 0.5rem 3rem;
+  background-size: cover;*/
+  line-height: 1;
+}
+h1.titulo-principal span.h1-small {
+  display: inline-block;
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+h1.titulo-principal span.h1-small:after, h1.titulo-principal span.h1-small::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #ebff66;
+  margin: 1rem auto;
+}
+h1.titulo-principal span.h1-big {
+  display: block;
+  font-size: 5.5rem;
+}
+
+.cabecera {
+  padding-top: 190px;
+  padding-bottom: 90px;
+  margin-bottom: 3rem;
+  background-color: #000000;
+  background-image: url("../img/fondo-cabecera.jpg");
+  color: #fff;
+  position: relative;
+}
+.cabecera:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.cabecera > .container {
+  position: relative;
+}
+.cabecera .contenido-cabecera {
+  max-width: 800px;
+}
+.cabecera .contenido-cabecera a {
+  color: #f8f9fa;
+  text-decoration: underline;
+}
+.cabecera .contenido-cabecera a:hover {
+  color: #fff;
+}
+.cabecera .contenido-cabecera h1 {
+  /*background-image: url(/wp-content/themes/understrap-child/img/gvb-bg.svg);
+  background-repeat: no-repeat;
+  padding: 0.5rem 3rem;
+  background-size: cover;*/
+}
+.cabecera .contenido-cabecera h1:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #ebff66;
+  margin: 1rem auto;
+}
+.cabecera.sin-descripcion {
+  text-align: center;
+}
+.cabecera.sin-descripcion .contenido-cabecera {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cabecera-vacia {
+  height: 96px;
+}
+
+@media (min-width: 768px) {
+  .admin-bar .fixed-top {
+    top: 32px;
+  }
+
+  .wp-block-columns.flex-md-row-reverse > .wp-block-column:last-child {
+    margin-left: 0;
+  }
+  .wp-block-columns.flex-md-row-reverse > .wp-block-column:not(:last-child) {
+    margin-left: 32px;
+  }
+}
 body.home article,
 body.archive article,
 body.blog article {
@@ -14640,7 +14774,7 @@ body.archive article .entry-meta,
 body.blog article .entry-meta {
   font-size: 0.8rem;
 }
-body.home article .btn, body.home article .wpcf7 input[type=submit], .wpcf7 body.home article input[type=submit], body.home article .woocommerce-notices-wrapper .woocommerce-message a.button, .woocommerce-notices-wrapper .woocommerce-message body.home article a.button, body.home article .woocommerce-info a.button, .woocommerce-info body.home article a.button,
+body.home article .btn, body.home article .wpcf7 input[type=submit], .wpcf7 body.home article input[type=submit], body.home article .woocommerce-notices-wrapper .woocommerce-message a.button, .woocommerce-notices-wrapper .woocommerce-message body.home article a.button, body.home article .woocommerce-info a.button, .woocommerce-info body.home article a.button, body.home article .wp-block-button__link,
 body.archive article .btn,
 body.archive article .wpcf7 input[type=submit],
 .wpcf7 body.archive article input[type=submit],
@@ -14648,17 +14782,19 @@ body.archive article .woocommerce-notices-wrapper .woocommerce-message a.button,
 .woocommerce-notices-wrapper .woocommerce-message body.archive article a.button,
 body.archive article .woocommerce-info a.button,
 .woocommerce-info body.archive article a.button,
+body.archive article .wp-block-button__link,
 body.blog article .btn,
 body.blog article .wpcf7 input[type=submit],
 .wpcf7 body.blog article input[type=submit],
 body.blog article .woocommerce-notices-wrapper .woocommerce-message a.button,
 .woocommerce-notices-wrapper .woocommerce-message body.blog article a.button,
 body.blog article .woocommerce-info a.button,
-.woocommerce-info body.blog article a.button {
+.woocommerce-info body.blog article a.button,
+body.blog article .wp-block-button__link {
   display: block;
 }
 @media (min-width: 768px) {
-  body.home article .btn, body.home article .wpcf7 input[type=submit], .wpcf7 body.home article input[type=submit], body.home article .woocommerce-notices-wrapper .woocommerce-message a.button, .woocommerce-notices-wrapper .woocommerce-message body.home article a.button, body.home article .woocommerce-info a.button, .woocommerce-info body.home article a.button,
+  body.home article .btn, body.home article .wpcf7 input[type=submit], .wpcf7 body.home article input[type=submit], body.home article .woocommerce-notices-wrapper .woocommerce-message a.button, .woocommerce-notices-wrapper .woocommerce-message body.home article a.button, body.home article .woocommerce-info a.button, .woocommerce-info body.home article a.button, body.home article .wp-block-button__link,
 body.archive article .btn,
 body.archive article .wpcf7 input[type=submit],
 .wpcf7 body.archive article input[type=submit],
@@ -14666,19 +14802,21 @@ body.archive article .woocommerce-notices-wrapper .woocommerce-message a.button,
 .woocommerce-notices-wrapper .woocommerce-message body.archive article a.button,
 body.archive article .woocommerce-info a.button,
 .woocommerce-info body.archive article a.button,
+body.archive article .wp-block-button__link,
 body.blog article .btn,
 body.blog article .wpcf7 input[type=submit],
 .wpcf7 body.blog article input[type=submit],
 body.blog article .woocommerce-notices-wrapper .woocommerce-message a.button,
 .woocommerce-notices-wrapper .woocommerce-message body.blog article a.button,
 body.blog article .woocommerce-info a.button,
-.woocommerce-info body.blog article a.button {
+.woocommerce-info body.blog article a.button,
+body.blog article .wp-block-button__link {
     display: inline-block;
   }
 }
 
 .widget {
-  margin-bottom: 3rem;
+  margin-bottom: 0rem;
 }
 .widget .widget-title {
   text-transform: uppercase;
@@ -15002,10 +15140,10 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 }
 
 .wp-block-buttons .wp-block-button .wp-block-button__link {
-  padding: 0.375rem 0.75rem;
+  padding: 0.5rem 3rem;
   font-size: 1.1rem;
   line-height: 1.5;
-  border-radius: 0;
+  border-radius: 4rem;
 }
 .wp-block-buttons .wp-block-button:not(.is-style-outline) .wp-block-button__link {
   border: 1px solid transparent;
